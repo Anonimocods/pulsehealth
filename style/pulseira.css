@@ -144,7 +144,6 @@ body {
 .container .left header nav ul li:first-child a,
 .container .left header nav ul li a:hover {
     transition: 0s;
-    background: #f1f3ff;
 }
 
 .container .left header nav ul li a::before {
@@ -153,7 +152,6 @@ body {
     right: 0;
     width: 0;
     height: 100%;
-    background: #6577ff;
     transition: .3s ease;
 }
 .container .left header nav ul li:first-child a::before,
@@ -172,11 +170,9 @@ body {
     font-size: 1.1em;
 }
 
-.container .left header nav ul li:first-child a .material-symbols-outlined,
-.container .left header nav ul li:first-child a .title,
-.container .left header nav ul li a:hover .material-symbols-outlined,
-.container .left header nav ul li a:hover .title{
-    color: #6577ff;
+.aba-bar:hover {
+    border-right: 3px solid #6577ff;
+    background-color: rgba(219, 219, 219, 0.2);
 }
 /* nav end */
 
