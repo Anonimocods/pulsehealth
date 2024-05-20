@@ -418,8 +418,8 @@ body {
 /* projectCard start */
 .container .right main .projectCard {
     position: relative;
-    width: 159%;
-    height: 110%;
+    width: 305%;
+    height: 130%;
     background-color: rgba(255, 255, 255, 1);
     backdrop-filter: blur(5px);
     border-radius: 20px;
@@ -567,4 +567,14 @@ body {
 .container .right main .projectCard .groupImg a:last-child span {
     color: #999;
     font-size: 1.2em;
+}
+
+.container .right main .projectCard .groupImg .batimentos a h2{
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    
 }
