@@ -551,6 +551,13 @@ body {
     align-items: center;
 }
 
+
+.container .right main .projectCard .groupImg {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
 .container .right main .projectCard .groupImg a img {
     position: absolute;
     width: 100%;
@@ -569,12 +576,6 @@ body {
     font-size: 1.2em;
 }
 
-.container .right main .projectCard .groupImg .batimentos a h2{
-    position: absolute;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
+.batimentos h2 {
     
 }
