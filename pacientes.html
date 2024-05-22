@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Task Dashboard</title>
-    <link rel="stylesheet" href="./style/pulseira.css">
+    <link rel="stylesheet" href="./style/pacientes.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="stylesheet" href="./java.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -38,19 +38,19 @@
                             </a>
                         </li>
                         <li>
-                            <a class="aba-bar" href="./pulseira.html" style="color: #6577ff;  border-right: 3px solid #6577ff; background-color: rgba(219, 219, 219, 0.2);">
-                                <span style="color: #6577ff;" class="material-symbols-outlined full">
+                            <a class="aba-bar" href="./pulseira.html">
+                                <span class="material-symbols-outlined full">
                                     ecg_heart
                                 </span>
-                                <span style="color: #6577ff;"  class="title pull">Pulseira</span>
+                                <span class="title pull">Pulseira</span>
                             </a>
                         </li>
                         <li>
-                            <a class="aba-bar" href="./pacientes.html">
-                                <span class="material-symbols-outlined">
+                            <a class="aba-bar" href="#" style="color: #6577ff;  border-right: 3px solid #6577ff; background-color: rgba(219, 219, 219, 0.2);">
+                                <span style="color: #6577ff;" class="material-symbols-outlined">
                                     group
                                 </span>
-                                <span class="title">Pacientes</span>
+                                <span style="color: #6577ff;" class="title">Pacientes</span>
                             </a>
                         </li>
                         <li>
@@ -104,7 +104,7 @@
                             account_circle
                         </span>
                     </div>
-                    <h2>Pulse Health<br><span>Cadastre-se</span></h2>
+                    <h2>Pulse Health<br><span>Administrador</span></h2>
                     <div class="arrow">
                         <span class="material-symbols-outlined">
                             expand_more
@@ -122,42 +122,44 @@
                 <!-- user end -->
             </div>
             <main>
-                <div class="projectCard">
-                    <!-- projectTop start -->
-                    <div class="projectTop">
-                        <h2>Monitoramento<br><span>Pulse Health</span></h2>
-                        <div class="projectDots">
-                            <span class="material-symbols-outlined">
-                                more_horiz
-                            </span>
+                <main>
+                    <div class="projectCard">
+                        <!-- projectTop start -->
+                        <div class="projectTop">
+                            <h2>Cadastro De Pacientes<br><span>Pulse Health</span></h2>
+                            <div class="projectDots">
+                                <span class="material-symbols-outlined">
+                                    more_horiz
+                                </span>
+                            </div>
+                        </div>
+                        <!-- projectTop end -->
+                        <!-- projectProgress start -->
+                        <!-- projectProgress end -->
+                        <!-- groupImg start -->
+                        <div class="geral-cad">
+                            <div class="inputs-cad">
+                                <span class="material-symbols-outlined">
+                                    id_card
+                                </span>
+                                <input type="text" placeholder="Digite seu nome...">
+                            </div>
+                            <div class="inputs-cad">
+                                <span class="material-symbols-outlined">badge</span>
+                                <input type="text" placeholder="Digite seu sobre-nome...">
+                            </div>
+                            <div class="inputs-cad">
+                                <span class="material-symbols-outlined">person</span>
+                                <input type="text" placeholder="Digite sua idade...">
+                            </div>
+                            <div class="inputs-cad">
+                                <span class="material-symbols-outlined">password</span>
+                                <input type="text" placeholder="Digite seu CPF...">
+                            </div>
                         </div>
                     </div>
-                    <!-- projectTop end -->
-                    <!-- projectProgress start -->
-                    <div class="projectProgress">
-                        <div class="priority">
-                            <h2>Funcionando</h2>
-                        </div>
-                    </div>
-                    <!-- projectProgress end -->
-                    <!-- groupImg start -->
-                    <div class="groupImg">
-                        <div class="batimentos">
-                            <a href="#">
-                                <img src="./assets/icone_batimentos.png" alt="img1">
-                            </a>
-                            <h2>Batimentos Cardiacos</h2>
-                        </div>
-                        <div class="temperatura">
-                            <a href="#" style="--left: -20px;">
-                                <img src="./assets/temp-icon.png" alt="img3">
-                            </a>
-                            <h2>Temperatura</h2>
-                        </div>
-                    </div>
-                </div>
+                </main>
             </main>
-        </div>  
+        </div>    
     </div>
 </body>
-</html>
