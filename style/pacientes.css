@@ -420,7 +420,7 @@ body {
 .container .right main .projectCard {
     position: relative;
     width: 305%;
-    height: 200%;
+    height: 179%;
     background-color: rgba(255, 255, 255, 1);
     backdrop-filter: blur(5px);
     border-radius: 20px;
@@ -570,4 +570,42 @@ body {
     padding-left: 10px;
     gap: 10px;
     overflow: hidden;
+    margin-bottom: 15px;
 }
+
+
+.container .right main .projectCard .geral-cad .inputs-cad span{
+    display: flex;
+    padding: 0px 4px 4px;
+}
+
+.container .right main .projectCard .geral-cad .inputs-cad label{
+    font-size: 1.10em;
+    display: flex;
+}
+
+.container .right main .projectCard .geral-cad .button-cad{
+    display: flex;
+    align-items: center;
+}
+
+.container .right main .projectCard .geral-cad .button-cad button{
+    width: 100%;
+    height: 100%;
+    background-color: #6577ff9d;
+    border-radius: 9999px;
+    padding: 10px;
+    font-size: 1.08em;
+    font-weight: 900;
+    cursor: pointer;
+    color: #fdfdfd;
+    transition: .3s;
+    border: none;
+}
+
+.container .right main .projectCard .geral-cad .button-cad button:hover{
+    background-color: #6577ff;
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px 1px #6577ff;
+}
+
