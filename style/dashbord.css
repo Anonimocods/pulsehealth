@@ -1141,7 +1141,7 @@ body {
 /* messages end */
 
 /* Responsive */
-@media (max-width: 1176px) {
+
     .container .left {
         position: absolute;
         left: -300px;
@@ -1168,7 +1168,7 @@ body {
     .container .right .top .user .toggle {
         display: block;
     }
-}
+
 
 @media (max-width: 927px) {
     .container {
@@ -1252,3 +1252,36 @@ body {
     flex-direction: row;
     align-items: center;
 }
+.backgraund-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .popup-content{
+    background: #a871b7;
+    border: 6px solid #e8bee8;
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  /*estilização do cadastro*/
+
